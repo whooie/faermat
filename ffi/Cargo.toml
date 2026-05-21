@@ -1,0 +1,16 @@
+[package]
+name = "faermat-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+faer = "0.24"
+faer-traits = "0.24"
+num-complex = "0.4"
+paste = "1"
+
+[build-dependencies]
+cc = "1"
